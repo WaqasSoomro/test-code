@@ -1,0 +1,1 @@
+A verification request received from {{ $club->title }} club.

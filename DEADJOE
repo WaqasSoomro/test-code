@@ -1,0 +1,43 @@
+
+*** These modified files were found in JOE when it aborted on Thu Sep  2 10:01:05 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '/var/www/html/jogo/.git/COMMIT_EDITMSG'
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: root <root@ip-172-31-20-251.eu-west-2.compute.internal>
+#
+# On branch develop
+# Your branch is behind 'origin/develop' by 6 commits, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   public/docs/collection.json
+#	modified:   public/docs/index.html
+#	modified:   resources/docs/source/.compare.md
+#	modified:   resources/docs/source/index.md
+#
+
+*** File '(Unnamed)'
+:wq
+
+*** File '(Unnamed)'
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/cms/staging/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/staging/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/staging/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/jogo/.git/MERGE_MSG
+/var/www/html/jogo/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
