@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
+class ComposerStaticInit8ec01868634539b23184f74954564cd1
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -289,8 +289,8 @@ class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
         ),
         'hollodotme\\FastCGI\\' => 
         array (
@@ -570,8 +570,8 @@ class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-factory/src',
-            1 => __DIR__ . '/..' . '/psr/http-message/src',
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+            1 => __DIR__ . '/..' . '/psr/http-factory/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -647,8 +647,8 @@ class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
         ),
         'League\\Uri\\' => 
         array (
-            0 => __DIR__ . '/..' . '/league/uri/src',
-            1 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            0 => __DIR__ . '/..' . '/league/uri-interfaces/src',
+            1 => __DIR__ . '/..' . '/league/uri/src',
         ),
         'League\\OAuth2\\Server\\' => 
         array (
@@ -736,8 +736,8 @@ class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
         ),
         'Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/php-http/message/src',
-            1 => __DIR__ . '/..' . '/php-http/message-factory/src',
+            0 => __DIR__ . '/..' . '/php-http/message-factory/src',
+            1 => __DIR__ . '/..' . '/php-http/message/src',
         ),
         'Http\\Factory\\Guzzle\\' => 
         array (
@@ -12003,10 +12003,10 @@ class ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit2658e8a77726fe80c2ebdc163372dda2::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8ec01868634539b23184f74954564cd1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8ec01868634539b23184f74954564cd1::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8ec01868634539b23184f74954564cd1::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8ec01868634539b23184f74954564cd1::$classMap;
 
         }, null, ClassLoader::class);
     }
