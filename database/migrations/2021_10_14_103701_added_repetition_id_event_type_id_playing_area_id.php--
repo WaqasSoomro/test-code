@@ -1,0 +1,30 @@
+<?php
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class AddedRepetitionIdEventTypeIdPlayingAreaId extends Migration
+{
+    public function up()
+    {
+        Schema::table("events", function (Blueprint $table)
+        {
+            $table->foreign("repetition_id")->references("id")->on("event_repetitions")->onDelete("cascade")->onUpdate("cascade");
+            $table->bigInteger("repetition_id")->unsigned()->default(1)->after("valid_till");
+            $table->foreign("event_type_id")->references("id")->on("event_types")->onDelete("cascade")->onUpdate("cascade");
+            $table->bigInteger("event_type_id")->unsigned()->nullable()->after("details");
+            $table->foreign("playing_area_id")->references("id")->on("event_match_types")->onDelete("cascade")->onUpdate("cascade");
+            $table->bigInteger("playing_area_id")->unsigned()->nullable()->after("opponent_team_id");
+        });
+    }
+
+    public function down()
+    {
+        Schema::table("events", function (Blueprint $table)
+        {
+            $table->dropColumn("repetition_id");
+            $table->dropColumn("event_type_id");
+            $table->dropColumn("playing_area_id");
+        });
+    }
+}

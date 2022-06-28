@@ -1,0 +1,282 @@
+<?php
+
+namespace App\Http\Controllers\Api\Dashboard;
+
+use App\Helpers\Helper;
+use App\Helpers\HumanOx;
+use App\Http\Controllers\Controller;
+use App\Match;
+use App\MatchStat;
+use App\User;
+use App\UserSensor;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Validator;
+use PHPUnit\TextUI\Help;
+use stdClass;
+
+/**
+ * @authenticated
+ * @group Dashboard / Training Sessions
+ * APIs For Training Sessions
+ * User Auth Token is required in headers
+ */
+class TrainingSessionController extends Controller
+{
+    /**
+     * GetTeamPlayers
+     *
+     * @response {
+     * "Response": true,
+     * "StatusCode": 200,
+     * "Message": "Records found",
+     * "Result": [
+     * {
+     * "player_name": "Muhammad shahzaib.",
+     * "team_name": "ManUtd U18",
+     * "position": "Left Back",
+     * "points": 0
+     * },
+     * {
+     * "player_name": "Hasnain Ali",
+     * "team_name": "ManUtd U18",
+     * "position": "Right Back",
+     * "points": 0
+     * }
+     * ]
+     *}
+     *
+     */
+    public function getTeamPlayers()
+    {
+        $team_id = Auth::user()->teams_trainers[0]->id ?? 0;
+
+        $players = User::role('player')->select('users.id', 'users.first_name', 'users.middle_name', 'users.last_name', 'users.profile_picture')
+            ->whereHas('teams', function ($q) use ($team_id) {
+                $q->where('teams.id', $team_id);
+            })
+            ->with([
+                'player' => function ($q1) {
+                    $q1->select('players.id', 'players.user_id', 'players.position_id');
+                    $q1->with('position:positions.id,positions.name');
+                }
+            ])
+            ->with([
+                'leaderboards' => function ($q3) {
+                    $q3->select('leaderboards.id', 'leaderboards.user_id', 'leaderboards.total_score');
+                }
+            ])
+            ->orderBy('created_at')
+            ->get();
+
+
+        if (count($players) == 0) {
+            return Helper::apiNotFoundResponse(false, 'Records not found', []);
+        }
+
+        $results = $players->map(function ($item) {
+            $obj = new stdClass();
+            $obj->id = $item->id;
+            $obj->player_name = $item->first_name . ' ' . $item->last_name;
+            $obj->team_name = Auth::user()->teams_trainers[0]->team_name ?? '';
+            $obj->position = $item->player->position->name ?? '';
+            $obj->points = $item->leaderboards->total_score ?? 0;
+            if(count($item->user_sensors) > 0){
+                $obj->imeis = $item->user_sensors->pluck('imei');
+            }
+            else{
+                $obj->imeis = [];
+            }
+            return $obj;
+        });
+
+        return Helper::apiSuccessResponse(true, 'Records found', $results);
+    }
+
+    /**
+     * startTrainingSession
+     *
+     * @response {
+     * "Response": true,
+     * "StatusCode": 200,
+     * "Message": "Session started",
+     * "Result": {}
+     * }
+     *
+     * @bodyParam user_ids array required ids should be in array
+     */
+    public function startTrainingSession(Request $request)
+    {
+        Validator::make($request->all(), ['user_ids' => 'required'])->validate();
+
+        $user_ids = [];
+        if(gettype($request->user_ids) == 'string'){
+            $user_ids = explode(',',$request->user_ids);
+        }
+        else{
+            $user_ids = $request->user_ids;
+        }
+
+        $user_imeis = UserSensor::whereIn('user_id', $user_ids)->get();
+
+        if (count($user_imeis) == 0) {
+            return Helper::apiNotFoundResponse(false, 'imeis not found', new stdClass());
+        }
+
+        //getting auth token
+        $auth = HumanOx::partnerLogin();
+
+        if(gettype($auth) == 'integer'){
+            return Helper::apiNotFoundResponse(false, 'Failed to get auth token', new stdClass());
+        }
+
+        $token = $auth->token;
+
+        //getting matches
+        $matches = [];
+        foreach ($user_imeis as $ui){
+            $res = HumanOx::getMatch($ui->imei, $token);
+
+            if($res !=null && count($res) > 0){
+                foreach($res as $key => $m){
+                    $m->user_id = $ui->user_id;
+                    $matches[] = $m;
+                }
+            }
+        }
+
+        //getting match_stats
+        $stats = [];
+        foreach ($matches as $match){
+            $res = HumanOx::getMatchStats($match->match_id, $match->imei, $token);
+            if($res !=null && count($res) > 0){
+                foreach($res as $key => $stat){
+                    $stat->user_id = $match->user_id;
+                    $stats[] = $stat;
+                }
+            }
+        }
+
+        //saving matches and stats data into db
+        foreach ($matches as $match){
+            Match::where('id', $match->match_id)->delete();
+            Match::create([
+                'id' => $match->match_id,
+                'user_id' => $match->user_id,
+                'init_ts' => now()
+            ]);
+        }
+
+        foreach ($stats as $stat){
+            MatchStat::create([
+                'match_id' => $stat->match_id,
+                'stat_type_id' => $stat->stat_type,
+                'stat_value' => $stat->stat_value,
+                'player_id' => $stat->user_id,
+                'imei' => $stat->imei
+            ]);
+        }
+
+        return Helper::apiSuccessResponse(true, 'Session started', new stdClass());
+    }
+
+//    public function startTrainingSession(Request $request)
+//    {
+//        Validator::make($request->all(), ['user_ids' => 'required'])->validate();
+//
+//        $user_imeis = UserSensor::with('user')->whereIn('user_id', $request->user_ids)->get();
+//
+//        if (count($user_imeis) == 0) {
+//            return Helper::apiNotFoundResponse(false, 'imeis not found', new stdClass());
+//        }
+//
+//        foreach ($user_imeis as $key => $ui) {
+//
+//            $cred = [
+//                'email' => $ui->user->humanox_username,
+//                'name' => $ui->user->last_name,
+//                'fullname' => $ui->user->first_name . ' ' . $ui->user->last_name
+//            ];
+//
+//            // Create account if user is not registered on humanox server
+//            if ($ui->user->humanox_user_id == null) {
+//
+//                $id = HumanOx::createAccount($cred);
+//
+//                if($id == -1){
+//                    activity()->log('Humanox partner login api - Unable to get partner credentials');
+//                    return Helper::apiNotFoundResponse(false, 'Unable to get partner credentials', new stdClass());
+//                }
+//                else if($id == 0){
+//                    activity()->log("Humanox players/pux api - Failed to create account for user id : $ui->user->id");
+//                }
+//
+//                $user = User::find($ui->user->id);
+//                $user->humanox_user_id = $id;
+//                $user->save();
+//            }
+//
+//            // Creating match and start recording on humanox server
+//            $match_id = HumanOx::quickStart($ui->imei);
+//
+////            if not getting match id skip current iteration
+//            if ($match_id == 0 || $match_id == null) {
+//                continue;
+//            }
+//
+//            // Creating match on jogo server
+//            Match::create([
+//                'id' => $match_id,
+//                'init_ts' => now(),
+//                'user_id' => $ui->user->id
+//            ]);
+//        }
+//
+//        return Helper::apiSuccessResponse(true, 'Session started', new stdClass());
+//    }
+
+    /**
+     * endTrainingSession
+     *
+     * @response {
+     * "Response": true,
+     * "StatusCode": 200,
+     * "Message": "Session ended",
+     * "Result": {}
+     * }
+     *
+     * @bodyParam session array required In session key you need to give object containing(session_time, user_id), session_time format in timestamp
+     */
+    public function endTrainingSession(Request $request)
+    {
+        Validator::make($request->all(), [
+            'session' => 'required',
+            'session.*.session_time' => 'required',
+            'session.*.user_id' => 'required'
+        ])->validate();
+
+//        $params = $request->all();
+//        $user_ids = [];
+//
+//        foreach ($params['session'] as $p){
+//            array_push($user_ids, $p['user_id']);
+//        }
+//
+//        $user_imeis = UserSensor::whereIn('user_id', $user_ids)->get();
+//
+//        if(count($user_imeis) == 0){
+//            return Helper::apiNotFoundResponse(false, 'Imeis not found');
+//        }
+//
+//        foreach ($user_imeis as $imei){
+//            HumanOx::quickStop($imei);
+//        }
+//
+//        Match::whereNull('end_ts')->whereIn('user_id', $user_ids)->update([
+//            'end_ts' => now(),
+//            'total_ts' => $params['session'][0]['session_time']
+//        ]);
+
+        return Helper::apiSuccessResponse(true, 'Session ended', new stdClass());
+    }
+}
