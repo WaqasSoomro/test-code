@@ -1,0 +1,307 @@
+label,English,Spanish,Italian,Dutch,Portuguese
+signUp,Sign Up,Regístrate,Registrati,Registratie,Inscrever-se
+agilityTitle,Agility Assignment,Ejercicio de agilidad,Esercizio di agilitá,Behendigheidsopdracht,Tarefa de Agilidade
+assignmentUserCardTitle,Assignment form:,Ejercicio de:,Esercizio di:,Opdrachtformulier,Formulário de Tarefa:
+agilityAssignment,Agility Assignment,Ejercicio de agilidad,Esercizio di agilitá,Behendigheidsopdracht,Tarefa de Agilidade
+socialClub,Social Club,Club Social,Social Club,Social Club,Clube social
+done,DONE,HECHO,FATTO,KLAAR,FEITO
+whatAreAssigment,Assignments are a set of exercises which are assigned to you and your team by your coach. ,Estos ejercicios son una serie de tareas que están asignadas a tu equipo por el entrenador. Completa estos ejercicios para que tu entrenador vea tu progreso,I compiti sono una serie di esecizi che sono assegnati alla tua squadra dal tuo allenatore. esegui questi compiti in modo tale che il tuo allenatore puó monitorare i tuoi progressi,Een reeks oefeningen die door je trainer aan jou en je team zijn toegewezen.,As tarefas são um conjunto de exercícios que são atribuídos a você e sua equipe pelo seu treinador.
+assignmentQuery,What are assignments?,Qué son tareas,Cosa sono i compiti,Wat zijn trainingsopdrachten?,O que são tarefas?
+assignmentTitle,Your Assignments,tus tareas,I tuoi compiti,Jouw opdrachten,Suas tarefas
+from,From,de,Da,Van,A partir de
+deadline,Deadline,fecha límite,Scandenza,Deadline,Prazo final
+assignedAt,Assigned at:,Asignado a:,Assegnato a,Toegewezen op: ,Atribuído em:
+assignmentsNotFound,Assignments not found,Tarea no encontrada,compito non trovato ,Opdrachten niet gevonden,Tarefas não encontradas
+assignmentCompleteBtn,ASSIGNMENT NOT COMPLETED,TAREA NO COMPLETADA,COMPITO NON COMPLETATO,OPDRACHT NIET VOLTOOID,TAREFA NÃO COMPLETADA
+assignmentCompleted,ASSIGNMENT COMPLETED,TAREA COMPLETADA,COMPITO COMPLETATO,OPDRACHT VOLTOOID,TAREFA CONCLUÍDA
+assignmentDetails,Assignment Details,Detalles de la tarea,dettagli dle compito,Details van de trainingsopdracht,Detalhes de Tarefa
+assignmentInfo,Assignment Information,Información de la tarea,informazioni del compito,Informatie van de trainingsopdracht,Informação de Tarefa
+back,Back,Atrás,Indietro ,Terug,VOLTAR
+assignmentExe,Assignment Exercises,Ejercicios de la tarea,Esercizi del compito ,Trainingsopdrachten,Exercícios de Tarefa
+assignmentExeDesc,Complete each exercise to finish your assignment,Completa cada ejercicio para finalizar tu tarea,Completa ogni esercizio per finire il compito,Voltooi elke oefening om je trainingsopdracht af te ronden,Complete cada exercício para terminar sua tarefa
+assignedTo,Assigned to,Asignado a,Assegnato a,Toegewezen aan,Atribuído a
+assignedBy,Assigned by,Asignado por,Assegnato da,Toegewezen door,Atribuídopor
+noPostsAvailable,No posts available!,No hay publicaciones disponibles!,No posts disponibili,Geen berichten beschikbaar!,Nenhuma postagem disponível!
+completeExercise,COMPLETE EXERCISE,COMPLETA EL EJERCICIO,COMPELTA L'ESERCIZIO,OEFENING VOLTOOIEN,EXERCÍCIO COMPLETO
+yourTime,Your Time,Tu tiempo,Il tuo tempo,Jouw tijd,Seu tempo
+pointsEarned,Points Earned,Puntos conseguidos,Punti guadagnati,Behaalde punten,Pontos ganhos
+achievements,Achievements,Logros,Risultati,Prestaties,Conquistas
+pleaseEnterFirstName,Please enter first name,Nombre,Perfavore inserisci nome,Voer je voornaam in,Por favor insira o primeiro nome
+pleaseEnterLastName,Please enter last name,Apellido,Perfavore inserisci cognome,Voer je achternaam in,Por favor insira o sobrenome
+pleaseSelectDateOfBirth,Please select date of birth,Fecha de nacimiento,Perfavore seleziona data di nascita,Selecteer je geboortedatum,Selecione a data de nascimento
+pleaseSelectYourNationality,Please select your nationality,Nacionalidad,Perfavore seleziona la tua nazionalitá,Selecteer je nationaliteit,Selecione sua nacionalidade
+pleaseEnterYourHeightInCm,Please enter your height in cm,Altura en cm,Perfavore inserisci la tua altezza in cm ,Voer je lengte in cm in,"Por favor, insira sua altura em cm"
+pleaseYourWeightInKg,Please enter your weight in kg,Peso en kg,Perfavore inserisci il tuo peso in Kg,Voer je gewicht in kg in,"Por favor, insira seu peso em kg"
+startByCreatingYourProfile,Create your profile.,Empieza por crearte un perfil,Inzia creando il tuo profilo,Maak je profiel aan,Crie seu perfil.
+firstName,First Name,Nombre,Nome,Voornaam,Primeiro nome
+lastName,Last Name,Apellido,Cognome,Achternaam,Sobrenome
+enterDateOfBirth,Enter date of birth,Fecha de nacimiento,Inserisci data di nascita,Voer geboortedatum in,Digite a data de nascimento
+dateOfBirth,Date of Birth,Fecha de nacimiento,Data di nascita,Geboortedatum,Data de nascimento
+nationality,Nationality,Nacionalidad,Nazionalitá,Nationaliteit,Nacionalidade
+selectNationality,Select Nationality,Selecciona Nacionalidad,Seleziona Nazionalitá,Selecteer nationaliteit,Selecione a nacionalidade
+enterHeightInCm,Enter height in cm,Altura en cm,Inserisci altezza in cm ,Voer lengte in cm in,Insira a altura em cm
+height,Height,Altura  ,Altezza ,Lengte,Altura
+weight,Weight,Peso  ,Peso,Gewicht,Peso
+position,Position,Posición,Posizione,Positie,Posição
+selectPosition,Select Position,Escoge Posición,Seleziona posizione,Selecteer positie,Selecione a posição
+enterWeightInKgs,Enter Weight in kgs,Peso en kgs,Inserisci peso in Kgs,Voer gewicht in kg in,Insira o peso em kgs
+customaryFoot,Preferred foot,Pie dominante,Piede dominante,Voorkeursvoet,Pé preferido
+selectFoot,Select foot,Escoge Pie,Seleziona piede,Selecteer voet,Selecione o pé
+jerseyNumber,Jersey number,Numero de camiseta,Numero di maglia,Rugnummer,número da camisa
+save,SAVE,GUARDAR,Salva,OPSLAAN,SALVAR
+filterExe,Filter Exercises,Filtrar ejercicios,Filtra gli esercizi,Filter oefeningen,Exercícios de filtro
+close,Close,Cerrar,Chiudi,Sluiten,Fechar
+showResult,SHOW RESULTS,MOSTRAR RESULTADO,Mostra risultati,RESULTATEN WEERGEVEN,MOSTRAR RESULTADOS
+exercisesNotFound,Exercises not found,Ejercicio no encontrado,Esercizio non incontarto,Oefeningen niet gevonden,Exercícios não encontrados
+exerciseEquipment,Exercise Equipment,Material para el ejercicio,materiale per l'esercizio,Trainingsmateriaal,Equipamento de exercício
+exerciseLevel,Exercise Level,Nivel del ejercicio,Livello dell'esercizio,Trainingsniveau,Nível de exercício
+exerciseFocus,Exercise Focus,Objetivo del ejercicio,Obiettivi dell'esercizio,Trainingsfocus,Foco do exercício
+categoriesNotFound,Categories not found,Categoría no encontrada,Categoria non incontrata,Categorieën niet gevonden,Categorias não encontradas
+exerciseTitle,Exercise Categories,Categoría del ejercicio,Categoria dell'esercizio,Trainingscategorieën,Categorias de exercícios
+welcomeToJogo,"Welcome to JOGO,","Bienvenido a Jogo,",Benevenuti In Jogo,"Welkom bij JOGO,","Bem-vindo ao JOGO,"
+letsGetThings,", let's get things started. Select an exercise to boost your skills. Master JOGO. Master the game.","Vamos a empezar. Escoge un ejercicio para comenzar tu camino. Domina Jogo, domina el juego","Cominiciamo. Scegli un esercizio per cominciare il tuo percorso. Perfeziona Jogo, perfeziona il tuo gioco.",laten we beginnen. Selecteer een oefening en start met het boosten van je skills. Master JOGO. Master the game.,Vamos começar. Selecione um exercício para aprimorar suas habilidades. Domine JOGO. Domine o jogo.
+jogoTrainer,JOGO Trainer,Entrenador Jogo,Allenatre Jogo,JOGO trainer,Treinador JOGO
+startExercise,START EXERCISE,EMPEZAR EJERCICIO,INIZIA ESERCIZIO,START OEFENING,COMEÇAR EXERCÍCIO
+exerciseDetails,Exercise Details,Detalles del ejercicio,Dettagli dell'esercizio ,Details van de oefening,Detalhes do exercício
+exerciseInfo,Exercise Levels,Nivel del ejercicio,Livello dell'esercizio,Trainingsniveaus,Níveis de exercício
+exeScoring,Scoring,Puntuación,Punteggio,Score,Pontuação
+exeLeaderboards,Leaderboard,Tabla de clasificación,Classifica ,Ranking,Tabela de Liderança
+relatedExercises,Related Exercises,Ejercicios relacionados,Esercizi relazionati,Gerelateerde oefeningen,Exercícios Relacionados
+selectLevel,Select Level,Selecciona nivel,Seleziona il livello,Selecteer trainingsniveau,Selecione o nível
+completeWithin,Complete within,Completado en,Completato in,Voltooi binnen,Complete em
+seconds,seconds,segundos,secondi,seconden,segundos
+completionPoints,Completion points per skill,Puntos conseguidos por habilidad,Punti completati per abilitá,Behaalde punten per skill,Pontos de conclusão por habilidade
+points,points,Puntos,Punti,punten,pontos
+feedbackScreen,Feedback Screen,Pantalla de Feedback,Pagina dei Feedback,Feedback scherm,Tela de feedback
+homeFieldLeague,Home Field League,Liga local,Lega locale,Home field league,Liga Local
+GetInto,Get into the top 10 to advance to the next league,Queda entre los 10 primeros para avanzar a la siguiente liga,Entra nei primi 10 per vanzare nella prossima lega,Haal de top 10 om de volgende competitie te bereiken,Fique entre os 10 primeiros para avançar para a próxima liga
+youHaveNoNotifi,You have no Notifications,No tienes notificaciones,Non hai notifiche,Je hebt geen meldingen,Você não tem notificações
+exerciseVideos,Exercise Videos,Videos de ejercicios,Video degli esercizi,Trainingsvideo's,Vídeos de exercícios
+learnTrickShare,Track. Analyse. Improve.,Realiza un seguimiento. Analiza. Mejora,Traccia. Analizza. Migliora,Track. Analyse. Improve,Acompanhar. Analisar. Melhorar.
+verificationCode,Verification code,Código de verificacion,Codice di verifica,Verificatiecode,Código de verificação
+resendCode,RESEND CODE,REENVIAR CÓDIGO,INVIA DI NUOVO IL CODICE,CODE OPNIEUW STUREN,REENVIAR CÓDIGO
+resendingCodeIn,Resending code in,Reenviando código en,Invia di nuovo il codice in,Code opnieuw verzenden in,Reenviando código em
+pleaseEnter,Please enter the 6 digit code sent to you at,"Por favor, usa el código de 6 dígitos que te hemos enviado",Perfavore inserisci il codice a 6 cifre che ti é stato inviato,Voer de 6-cijferige code in die je hebt ontvangen op,Insira o código de 6 dígitos enviado a você em
+jogoPutsYou,Jogo puts you in control of your data and who can see it,Jogo te da el control de tu información y quien puede verla,Jogo ti mette in controllo dei tuoi dati e chi puó vederli,JOGO geeft je controle over jouw gegevens en wie ze kan zien,Jogo coloca você no controle de seus dados e quem pode vê-los
+ok,Ok,Ok,Ok,Ok,OK
+ready,READY,PREPARADO,Pronto,GEREED,PRONTO
+connected,CONNECTED,CONECTADO,Connesso,VERBONDEN,CONECTADO
+startTrainingSession,Start Training Session,Empezar sesión de entrenamiento,Incomincia sessione d'allenamento,Start trainingssessie,Iniciar sessão de treinamento
+completeTrainingSession,Complete Training Session,Completar Sesión de Entrenamiento,Completa sessione d'allenamento,Voltooi trainingssessie,Sessão de treinamento completa
+sessionTime,Session Time,Tiempo de Sesión,Tempo della sessione,Sessietijd,Tempo de sessão
+trainingSession,Training Session,Sesión de entrenamiento,sessione d'allenamento,Trainingssessie,Sessão de treinamento
+nextTip,NEXT TIP,Siguiente consejo,Prossimo consiglio,VOLGENDE TIP,PRÓXIMA DICA
+connectAndSyncLastData,Connect and Sync last data,Conéctate y sincroniza la última información,Connetti e sincroniza le ultime informazioni,Koppel en sync laatste data,Conectar e sincronizar os últimos dados
+foundDevices,Found devices,Dispositivo encontrado,Dispositivo incontrato,Gevonden apparaten,Dispositivos encontrados
+connect,Connect,Conectar,Connetti,Koppel,Conectar
+searching,Searching,Buscando,Cercando,Zoeken,Procurando
+teams,Teams,Equipos,Squadre,Teams,Times
+logout,LOGOUT,DESCÓNECTATE DE ESTE CUENTA,Disconnettiti da questo account,UITLOGGEN,LOGOUT
+help,Help,Ayuda,Aiuto,Help,Ajuda
+feedback,Feedback,Feedback,Feedback,Feedback,Feedback
+permissions,Permissions,Permisos,Permessi,Toestemmingen,Permissões
+privacy,Privacy,Privacidad,Privacy,Privacy,Privacidade
+sensors,Sensors,Sensores,Sensori,Sensors,Sensores
+weCould,We couldn't find your friend,No hemos podido encontrar a tu amigo,Non abbiamo trovato il tuo amico,We konden je vriend niet vinden,Não conseguimos encontrar seu amigo
+goAhead,Invite your friends to JOGO and compete together,Adelantate e invitalos a JOGO para competir juntos,"avanti, invitali a Jogo per competere insieme",Nodig je vrienden uit voor JOGO en neem het tegen elkaar op,Convide seus amigos para o JOGO e competam juntos
+sharing,Sharing,Compartiendo,Condividere,Delen,Compartilhando
+enterVideoCaption,Enter video caption!,Ponle un título a tu video!,Metti un titola al video,Voeg videobeschrijving toe!,Insira a legenda do vídeo!
+sharingDesc,"Describe your workout and share it with your social club. Show friends, trainers and others what you're made of. ",Ponle un título y comparte tu video con el club social o interactúa con otros jugadores y entrenadores,Scrivi un titolo e condividi il tuo video con il social club per interagire con altri giocatori e allenatori!,"Beschrijf je training en deel deze met je social club. Laat vrienden, trainers en anderen zien waartoe je in staat bent.","Descreva seu treino e compartilhe-o com seu clube social. Mostre a amigos, treinadores e outras pessoas do que você é feito."
+sharingPlace,Please Write a Video Caption,"Por favor, pon titulo a tu video.",Perfavore metti un titolo al tuo video,Beschrijf je video,Escreva uma legenda de vídeo
+videoCap,VIDEO CAPTION,TÍTULO DEL VIDEO,TITOLO DEL VIDEO ,VIDEOBESCHRIJVING,LEGENDA DE VÍDEO
+shareSocial,SHARE WITH SOCIAL CLUB,COMPARTEL EN EL CLUB SOCIAL,CONDIVIDI NEL SOCIAL CLUB,DELEN MET SOCIAL CLUB,PARTILHE COM O CLUBE SOCIAL
+dontShare,DON’T SHARE,NO COMPARTAS,NON CONDIVIDERE,NIET DELEN,NÃO COMPARTILHAR
+notAMember,NOT A MEMBER YET? REGISTER!,NO ERES MIEMBRO AÚN? REGÍSTRATE AHORA,NON SEI ANOCRA MEMBRO? REGISTARTI ORA,NOG GEEN LID? REGISTREER!,NÃO É MEMBRO AINDA? SE REGISTRE!
+signIn,SIGN IN,REGÍSTRATE,REGISTRATI,INLOGGEN,SIGN IN
+pleaseEnterYourPhoneNumber,Please enter your phone number,"Por favor, introduce un número de teléfono","Perfavore, inserisci il tuo numero di telefono",Voer je telefoonnummer in,"Por favor, digite seu número de telefone"
+pleaseEnterValidNumber,Please enter a valid phone number,"Por favor, introduce un número de teléfono válido","Perfavore, inserisci un numero di telefono valido",Voer een geldig telefoonnummer in,Por favor insira um número de telefone válido
+iHaveAnAccount,I have an Account. Sign me In!,"Ya tengo una cuenta, Inicia tu sesión","Ho giá un account, effetua il sign in",Ik heb een account. Meld me aan!,Eu tenho uma conta. Inscreva-me!
+next,NEXT,SIGUIENTE,PROSSIMO,VOLGENDE,PRÓXIMO
+privacyPolicy,Privacy Policy,Política de Privacidad,Politica di Privacy,Privacybeleid,Política de Privacidade
+termOfUse,Terms of Use,Términos de Uso,Termini e condizioni ,Gebruikersvoorwaarden,Termos de uso
+and,and,Y,E,en,e
+iAccept,I accept the,Acepto que,Accetto,Ik accepteer de,Eu aceito o
+masterJogo,Master JOGO. Master the game,"Domina Jogo, domina el juego","Perfeziona Jogo, perfeziona il gioco",Master JOGO. Master the game.,Domine JOGO. Domine o jogo
+pleasEnterPhoneNum,Please enter your phone number,"Por favor, introduce tu número de teléfono","Perfavore, introduci il tuo numero di telefono",Voer je telefoonnummer in,"Por favor, digite seu número de telefone"
+kindlyAgree,Kindly agree to the Terms of use,Acepto los Términos y condiciones,Accetto termini e condizioni,Ga akkoord met de algemene voorwaarden,Concorde com os Termos de uso
+IHaveAnAccount,I have an Account. Sign me In.,"Ya tengo una cuenta, Iniciar sesión","Ho giá un account, effetua il sign in",Ik heb een account. Meld me aan!,Eu tenho uma conta. Inscreva-me.
+syncYouHumanOx,Sync You HumanOX Shin Guard to View,Sincroniza tu espinillera HumanOX para ver,Sincronizza i parastinchi HumanOX per vedere,Synchroniseer je HUMANoX-scheenbeschermer,Sincronize seu HumanOX Shin Guard para visualizar
+startATraining,START A TRAINING SESSION WITH SENSORS,EMPEZAR ENTRENO CON SENSORES,INIZA LA SESSIONE D'ALLENAMENTO CON I SENSORI,BEGIN EEN TRAININGSSESSIE MET SENSORS,COMEÇAR UMA SESSÃO DE TREINAMENTO COM SENSORES
+trainSmarter,"Train Smarter.
+Play Better.",Entrena de forma mas inteligente. Juega mejor,Allenati con intelligenza. Gioca meglio,"Train Smarter.
+Play Better.",Treine de maneira mais inteligente. Jogue melhor.
+buyShinGuard,"Buy shin guard sensors,
+know more about
+your game","Compra los sensores de espinillera, conoce mas tu juego","Compra i parastinchi, conosci di piú sul tuo gioco","Koop slimme scheenbeschermers, krijg een beter beeld van je skills ","Compre sensores de caneleira, saiba mais sobre seu jogo"
+suggestedExercises,Suggested Exercises,Ejercicios sugeridos,Esercizi suggeriti,Voorgestelde oefeningen,Exercícios Sugeridos
+sync,SYNCED,SINCRONIZADO ,Sincronizzato,GESYNCHRONISEERD,SINCRONIZADO
+checkLatestData,CHECK LATEST DATA,MIRA LA ÚLTIMA INFORMACIÓN,Guarda i tuoi ultimi dati,CHECK DE LAATSTE DATA,VERIFICAR OS ÚLTIMOS DADOS
+fromYourPhoneNum,With your phone number we scan the teams that are inside our network and find your team. Here is the team we found:,Desde tu smartphone escaneamos los equipos que estan dentro de tu red y encontramos tu equipo. Este es el equipo que hemos encontrado,Dal tuo numero di telefono abbiamo scansionato le squadre che sono all'interno della nostra rete e abbaimo trovato la tua squadra. Ecco la squadra che abbiamo trovato:,Met jouw telefoonnummer scannen we alle teams die zich binnen ons netwerk bevinden en vinden we vlot jouw team. Hier is het team dat we hebben gevonden:,Com o seu número de telefone fazemos a varredura das equipes que estão dentro da nossa rede e encontramos a sua equipe. Aqui está a equipe que encontramos:
+teamDesc,Team Description will be here,La descripcion del equipo ira aquí,La descrizione del team sará qui,Hier komt de teambeschrijving,A descrição da equipe estará aqui
+version,Version,Versión,Versione,Versie,Versão
+line3,"This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules. This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules. This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules.","Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales. Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales. Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales.","Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive. Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive. Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive.","Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden. Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden. Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden.","Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais. Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais. Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais."
+line2,"Certain features of the site may be subject to additional guidelines, terms or rules. This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules.","Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales. Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales.","Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive. Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive.","Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden. Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden.","Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais. Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais."
+line1,"This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules. This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules.This is a copyright work of Jogo. Certain features of the site may be subject to additional guidelines, terms or rules.","Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales. Este es un trabajo con copyright de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales. Este es un trabajo con derechos de autor de Jogo. Ciertas características del sitio pueden estar sujetas a pautas, términos o reglas adicionales.","Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive. Questa è un'opera protetta da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive. Questo è un lavoro protetto da copyright di Jogo. Alcune funzionalità del sito possono essere soggette a linee guida, termini o regole aggiuntive.","Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden. Dit is een auteursrechtelijk werk van JOGO. Bepaalde functies van de site kunnen onderworpen zijn aan aanvullende richtlijnen, voorwaarden of regels. Dit is een auteursrechtelijk werk van JOGO. Voor bepaalde functies van de site kunnen aanvullende richtlijnen, voorwaarden of regels gelden.","Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais. Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais. Este é um produto com direitos autorais do Jogo. Certos recursos do site podem estar sujeitos a diretrizes, termos ou regras adicionais."
+websiteTermsOfUse,Website Terms of Use,Térmios de Uso de la Página Web,Termini e condizioni della pagina web,Gebruikersvoorwaarden website,Termos de uso do site
+skipThis,SKIP THIS STEP FOR NOW,SALTA ESTE PASO POR AHORA,SALTA PASSAGIO PER ORA,DEZE STAP VOOR NU OVERSLAAN,PULAR ESTA ETAPA POR AGORA
+addNewPhoto,ADD NEW PHOTO,AÑADE UNA FOTO NUEVA,AGGIUNGI UNA NUOVA FOTO,NIEUW FOTO TOEVOEGEN,ADICIONE NOVA FOTO
+jogoIsAlso,"Be the future face of football. The social platform of JOGO gives you a podium to shine on. Share your workouts, training and skills with the world and get discovered!","Jogo es también una plataforma social que permite a los usuarios compartir su entrenamiento, ejercicio y la próxima habilidad.","Jogo è anche una piattaforma sociale che consente agli utenti di condividere il loro allenamento, esercizio e la prossima mossa di abilità.","Be the future face of football. Het sociale platform van JOGO geeft je een podium om te schitteren. Deel je workouts, trainingen en skills met de wereld en maak naam voor jezelf!","Seja a futura face do futebol. A plataforma social do JOGO oferece um pódio para brilhar. Compartilhe seus treinos, treinamento e habilidades com o mundo e seja descoberto!"
+addYorPhoto,ADD YOUR PHOTO,AÑADE TU FOTO,AGGIUNGI FOTO,VOEG JE FOTO TOE,ADICIONE SUA FOTO
+pleaseTypeYourComment,Please write your comment,Escriba su comentario,Perfavore scrivi il tuo commento,Schrijf een opmerking,"Por favor, escreva seu comentário"
+enterComment,Enter comment!,Comenta!,Commenta,Plaats opmerking!,Insira o comentário!
+privateContent,Private Content,Contenido Privado,Contenuto Privato,Privé-inhoud,Conteúdo Privado
+levels,Levels,Niveles,Livelli,Niveaus,Níveis
+level,Level,Niveles,Livello,Niveau,Nível
+continue,Continue,Continuar,Continua,Doorgaan,Continuar
+discontinueAndDeleteRecordings,Discontinue and Delete Recordings,Terminar y borrar grabación,Termina e cancella i risultati,Stop en verwijder opnames,Descontinuar e deletar gravações
+discontinueAndSaveRecordings,Discontinue and Save Recordings,Terminar y guardar grabación,Termina e salva,Stop en sla opnames op,Descontinuar e salvar gravações
+delete,Delete,borrar,Cancella ,Verwijder,Deletar
+success,Success,Éxito,Successo,Succes,Sucesso
+warning,Warning,Cuidado,Attenzione,Waarschuwing,Aviso
+errorOccurred,Error occurred,Ha ocurrido un error,Errore,Fout opgetreden,Ocorreu um erro
+assignments,Assignments,Tareas,Compiti,Opdrachten,Tarefas
+exercises,Exercises,Ejercicios,Esercizi,Oefeningen,Exercícios
+selectDate,Select date,Selecciona la fecha,Seleziona data,Selecteer datum,Selecione a data
+cancel,Cancel,Cancela,Cancella ,Annuleer,Cancelar
+confirm,Confirm,Confirma,Conferma,Bevestig,confirme
+equipment,Equipment,Equipamiento,Materiali,Materiaal,Equipamento
+beta,BETA,BETA,BETA,BETA,BETA
+remove,REMOVE,ELIMINA,Rimuovi,VERWIJDEREN,REMOVER
+follow,FOLLOW,SIGUE,Segui,VOLGEN,SEGUIR
+message,"Welcome to JOGO Finn, let`s get things started. Select an exercise to boost your skills. Master JOGO. Master the game.","Bienvenido a Jogo Finn, empecemos. Seleccione un ejercicio para comenzar su viaje. Domina Jogo, domina el juego.","Benvenuto a Jogo Finn, iniziamo. Seleziona un esercizio per iniziare il tuo viaggio. Padroneggia Jogo, padroneggia il gioco.","Welkom bij JOGO Finn, laten we beginnen. Selecteer een oefening en boost je skills. Master JOGO. Master the game.","Bem-vindo ao JOGO Finn, vamos começar. Selecione um exercício para aprimorar suas habilidades. Domine  JOGO. Domine o jogo."
+grant,Grant,Concede,Concedi,Toestaan,Conceder
+deny,Deny,Deniega,Nega,Weigeren,Negar
+toConnectToSensors,to connect to sensors,Para conectar los sensores,Per connettere i sensori,om sensors aan te sluiten,conectar a sensores
+grantJOGOAccessTo,Grant JOGO access to,Dale acceso a JOGO a,Permetti accesso di Jogo a,Geef JOGO toegang tot,Conceda acesso ao JOGO a
+phoneNumber,Phone Number,Número de telefono,Numero di telefono,Telefoonnummer,Número de telefone
+unfollow,UNFOLLOW,DEJAR DE SEGUIR,Smetti di seguire,NIET MEER VOLGEN,DEIXAR DE SEGUIR
+editProfile,Edit Profile,Editar Perfil,Modifica profilo,Profiel bewerken,Editar Perfil
+following,Following,Siguiendo,Seguiti,Volgend,Seguindo
+followers,Followers,Seguidores,Followers,Volgers,Seguidores
+leaderboard,Leaderboard,Tabla de clasificación,Classifica,Ranking,Tabela de Liderança
+skills,Skills,Habilidades,Abilità,Skills,Habilidades
+NoScreenHere,No Screen Here,No hay pantalla aquí,senza schermo qui,Geen scherm hier,Sem tela aqui
+searchForPlayers,Search for players,Busca jugadores,Cerca Giocatori,Zoek naar spelers,Procurar jogadores
+loading,Loading,Cargando,Caricando,Laden,Carregando
+more,more,Mas,Più,meer,mais
+_and,and,y,E,en,e
+addNewSensors,ADD NEW SENSORS,AÑADE NUEVOS SENSORES,Aggiungi un nuovo sensore,VOEG NIEUWE SENSORS TOE,ADICIONAR NOVOS SENSORES
+shareTo,Invite your friends to JOGO,Invita a tus amigos a JOGO,Invita i tuoi amici a JOGO,Nodig je vrienden uit voor JOGO,Convide seus amigos para o JOGO
+friendRequests,Friend Requests,Solicitudes de Amistad,Richiesta di Amicizia,Vriendschapsverzoeken,Pedidos de amizade
+shareMsg,"Hi there! 
+I just discovered a cool football app to train like a pro. Do you want to check it out? Download JOGO directly from the app store through the link below:
+https://download.jogo.ai","¡Hola!
+Acabo de descubrir una aplicación de fútbol genial para entrenar como un profesional. ¿Quieres comprobarlo? Descarga JOGO directamente desde la tienda de aplicaciones a través del siguiente enlace:
+https://download.jogo.ai ","Ciao!
+Ho appena scoperto una fantastica app di calcio per allenarmi come un professionista. Vuoi verificarlo? Scarica JOGO direttamente dall'app store tramite il link sottostante:
+https://download.jogo.ai","Hi daar! 
+Ik heb net een coole voetbal app ontdekt waarmee je kan trainen als een prof. Wil je deze ook eens proberen? Download JOGO direct uit de app store via onderstaande link:
+https://download.jogo.ai",Olá! Acabei de descobrir um aplicativo de futebol legal para treinar como um profissional. Você quer dar uma olhada? Baixe o JOGO diretamente da app store através do link abaixo: https://download.jogo.ai
+club,Club,Club  ,Club,Club,Clube
+practice,Training,Entreno,Esercitati,Training,Treinamento
+profile,Profile,Perfil,Profilo,Profiel,Perfil
+notifications,Notifications,Notificaciones,Notifiche,Meldingen,Notificações
+settings,Settings,Configuración,Impostazioni,Instellingen,Configurações
+prepareToBe,Get ready to be seen. Create your own stage.,Prepárate para que te vean. Crea tu propio escenario,Preparati per essere visto. Crea il tuo palco.,Word gezien. Creëer je eigen podium.,Prepare-se para ser visto. Crie seu próprio palco.
+nonAi,NON AI,NO AI,NO AI,GEEN AI,SEM AI
+searchResults,Search Results,Busca Resultados,Cerca Risultati,Zoekresultaten,Procurar Resultados
+noDevice,No Sensors Found,No se han encontrado sensores,Sensori non trovati,Geen sensors gevonden,Nenhum sensor encontrado
+deviceFound,Sensors Found,Sensores Encontrados,Sensori trovati,Sensors gevonden,Sensores encontrados
+public,Public,Público,Pubblico ,Openbaar,Público
+private,Private,Privado,Privato,Privé,Privado
+needsCalibration,Your sensors need calibration,Tus sensores necesitan calibración,I tuoi sensori necessitano una calibrazione,Je sensors moeten worden gekalibreerd,Seus sensores precisam de calibração
+needsCalibrationDesc,You will need a ball to calibrate your sensors. Tap on the ‘Start Calibration’ button when ready to do so!,"Necesitarás una pelota para calibrar tus sensores. Presiona el boton ""Empezar Calibración"" cuando estes preparado!","Avrai bisogno di una palla per calibrare i tuoi sensori. Tocca il pulsante ""Avvia calibrazione"" quando sei pronto per farlo!",Je hebt een bal nodig om je sensors te kalibreren. Tik op de knop ‘Start Kalibratie’ om het kalibratieproces te starten!,Você precisará de uma bola para calibrar seus sensores. Toque no botão 'Iniciar calibração' quando estiver pronto para fazer isso!
+startCalibration,START CALIBRATION,EMPEZAR CALIBRACIÓN,INZIA CALIBRAZIONE,START KALIBRATIE,INICIAR CALIBRAÇÃO
+nextStep,NEXT STEP,SIGUIENTE PASO,PASSO SUCCESSIVO ,VOLGENDE STAP,PRÓXIMA ETAPA
+calibrationStepOne,RIGHT FOOT SOFT SPEED CALIBRATION DONE!,¡CALIBRACIÓN DE VELOCIDAD SUAVE DEL PIE DERECHO REALIZADA!,CALIBRAZIONE DEL PIEDE DESTRO A VELOCITA' LENTA EFFETTUATO,RECHTS ZACHT KALIBRATIE KLAAR,CALIBRAÇÃO DE VELOCIDADE SUAVE DE PÉ DIREITO FEITA!
+updatingSensors,PLEASE WAIT WHILE WE ARE UPDATING YOUR SENSORS…..,"POR FAVOR, ESPERA MIENTRAS ACTUALIZAMOS TUS SENSORES...",PERFAVORE ASPETTA MENTRE STIAMO AGGIORNANDO I TUOI SENSORI,GELIEVE TE WACHTEN TERWIJL WE JE SENSORS BIJWERKEN,AGUARDE ENQUANTO ESTAMOS ATUALIZANDO SEUS SENSORES ...
+stepOneDesc,Turn your shin guards on to start the calibration. Follow the instructions that will guide you through the process.,Encienda las espinilleras y póngalas para iniciar la calibración. Siga las instrucciones y el sistema lo guiará a través del proceso.,Accendi i parastinchi e indossali per avviare la calibrazione. Segui le istruzioni e il sistema ti guiderà attraverso il processo,Zet je scheenbeschermers aan om de kalibratie te starten. Volg daarbij de instructies die op het scherm verschijnen.,Ligue as caneleiras para iniciar a calibração. Siga as instruções que o orientarão durante o processo.
+kickTheBall,Kick the ball with,Golpea el balon con,Calcia il pallone con,Trap de bal,Chute a bola com
+softly,SOFTLY,DE FORMA SUAVE,Dolcemente,ZACHT,SUAVEMENTE
+usingYour,using your,usando tu,Usando il tuo,met,usando seu
+right,RIGHT,DERECHA,Destra,RECHTS,DIREITA
+foot,foot,pie  ,Piede,,pé
+greatKick,"Great kick, Now tap the screen and","Gran disparo, ahora toca la pantalla y","Gran tito, adesso tocca lo schermo e ",Geweldig schot! Klik nu op het scherm en,"Ótimo chute, agora toque na tela e"
+medium,MEDIUM,MEDIO,MEDIO,,MÉDIO
+force,force using your,Fuerzate a usar tu,Forzati ad usare il tuo,,força usando seu
+hard,HARD,DIFICIL,DIFFICILE,HARD,DIFÍCIL
+left,LEFT,IZQUIERDA,SINISTRA,LINKS,ESQUERDA
+kickWith,kick the ball with,Golpea el balón con,Calcia il pallone con,Trap de bal,chutar a bola com
+tapScreen,Tap the screen and,Toca la pantalla y,Tocca lo schermo e,Klik op het scherm en,Toque na tela e
+slow,SLOW,DESPACIO,PIANO,ZACHT,LENTO
+now,"Now, Tap the screen and","Ahora, presiona la pantalla y ","Adesso, tocca lo schermo e",Klik nu op het scherm en,"Agora, toque na tela e"
+pleaseEnterImei,Please Enter IMEI,"Por favor, introduce IMEI",Perfavore inserisci IMEI,Voer IMEI in,Digite IMEI
+useIMEI,USE IMEI CODE TO CONNECT SENSORS,USA EL CÓDIGO IMEI PARA CONECTAR LOS SENSORES,USA IL CODICE IMEI PER CONNETTERE I SENSORI,GEBRUIK IMEI CODE OM SENSORS TE KOPPELEN,USE O CÓDIGO IMEI PARA CONECTAR SENSORES
+connectSensor,CONNECT SENSOR,CONECTA EL SENSOR,CONNETTI IL SENSORE,KOPPEL SENSOR,CONECTAR SENSOR
+sensorInputLabel,SENSOR IMEI CODE,CÓDIGO IMEI DEL SENSOR,CODICE IMEI DEL SENSORE,SENSOR IMEI CODE,CÓDIGO SENSOR IMEI
+enter15,Enter 15 Digit IMEI Code,Introduce el Código IMEI de 15 Dígitos,Inserisci il codice IMEI di 15 cifre,Voer de 15-cijferige IMEI-code in,Insira o código IMEI de 15 dígitos
+pleaseWrite,Please write the 15 digit IMEI code of your sensor below. You can find the IMEI code on your shin guard.,"Por favor, introduce el Código IMEI de 15 Dígitos debajo. El código IMEI lo puedes encontrar en la Espinillera",Scrivi il codice IMEI a 15 cifre del tuo sensore di seguito. Il codice IMEI può essere trovato sul parastinco,Noteer hieronder de 15-cijferige IMEI-code van je sensor. Je vindt de IMEI code op je scheenbeschermer.,Escreva abaixo o código IMEI de 15 dígitos do seu sensor. Você pode encontrar o código IMEI em sua canela.
+badges,Badges,Medallas,Simboli di riconscimento,Badges,Distintivos
+toConnect,"To connect, please scan the QR code placed on the back of your right shin guard.","Para conectarte, por favor escanea el código QR que se encuentra en la parte trasera de tu espinillera derecha","Per connetterti, scansiona il codice QR posto sul retro dello parastinco destro.",Scan de QR-code op de achterkant van je rechter scheenbeschermer om te koppelen.,"Para se conectar, leia o código QR colocado na parte de trás da sua caneleira direita."
+toConnect2,"To connect, please scan the QR code placed on the back of your right shin guard.","Para conectarte, por favor escanea el código QR que se encuentra en la parte trasera de tu espinillera derecha","Per connetterti, scansiona il codice QR posto sul retro dello parastinco destro.",Scan de QR-code op de achterkant van je rechter scheenbeschermer om te koppelen.,"Para se conectar, leia o código QR colocado na parte de trás da sua caneleira direita."
+internetIssue,Internet Issue,Problema de conexión de internet,Problema di connessione ad internet,Internetprobleem,Problema de Internet
+checkInternet,Check your Internet Connection,Revisa tu Conexión de Internet,Controlla la connessione ad internet,Controleer je internetverbinding,Verifique sua conexão com a internet
+updateAvailable,New update is available,Actualizaciones disponibles,Aggiornamento disponibile,Nieuwe update is beschikbaar,Nova atualização disponível
+updateNow,UPDATE NOW,ACTUALIZAR AHORA,Aggiorna ora,UPDATE NU,ATUALIZAR AGORA
+updateText,"is available to download. Downloading the latest update, you will get the latest features, improvements and bug fixes.","Esta disponible para descargar. Descargando la última versión, tendras las últimas características, mejoras y correcciones de bugs.","è disponibile per il download. Scaricando l'ultimo aggiornamento, otterrai le ultime funzionalità, miglioramenti e correzioni di bug.","is nu te downloaden. Haal de nieuwste features, verbeteringen en bugfixes binnen.","está disponível para download. Baixando a atualização mais recente, você obterá os recursos, melhorias e correções de bugs mais recentes."
+version,Version,versión,,Versie,Versão
+new,NEW,Nuevo,,NIEUW,NOVO
+juggles,Juggles,regates,,,Toques
+juggle,Juggle,regates,,,Toque
+exerciseSummary,Exercise Summary,Resumen del ejercicio,,Trainingsoverzicht,Resumo do exercício
+onlyCompleted,COMPLETED!,COMPLETADO!,,VOLTOOID!,CONCLUÍDO!
+assignmentSensorsDescription,Enable the sensors of your JOGO shin guards for this exercise.,Habilite los sensores de sus espinilleras JOGO para este ejercicio.,,Activeer de sensors van je JOGO scheenbeschermers voor deze oefening.,Ative os sensores das caneleiras JOGO para este exercício.
+activateSensors,Activate My Sensors,Activar mis sensores,,Activeer mijn sensors,Ativar meus sensores
+newPost,NEW POST,NUEVA PUBLICACIÓN,,NIEUW BERICHT,NOVA POSTAGEM
+addVideoCaption,"Write a caption and share your workout with your social club. Show friends, trainers and others what you’re made of.",Escribe una publicación y comparte tu video en Social Club para interactuar con otros jugadores y entrenadores.,,"Beschrijf je training en deel deze met je social club. Laat vrienden, trainers en anderen zien waartoe je in staat bent.","Escreva uma legenda e compartilhe seu treino com seu clube social. Mostre a amigos, treinadores e outras pessoas do que você é feito."
+videoShared,Video is shared with your social club,El video se comparte en el club social,,Video is gedeeld met je social club,O vídeo é compartilhado com o seu clube social
+addPost,ADD POST,AÑADIR PUBLICACIÓN,,VOEG BERICHT TOE,ADICIONE POST
+searchTeams,Search Teams,Buscar equipos,,Zoek teams,Equipes de Pesquisa
+writeYourTeamNameToSearch,Search for your teams below to add them to your profile.,"Por favor, escribe el nombre de tu club para seleccionar tu equipo",,Zoek hieronder je teams om ze toe te voegen aan je profiel.,Pesquise por suas equipes abaixo para adicioná-las ao seu perfil.
+saveTeam,SAVE TEAMS,GUARDAR EQUIPOS,,Sla teams op,SALVAR EQUIPES
+teamName,TEAM NAME,NOMBRE DEL EQUIPO,,Teamnaam,NOME DO TIME
+jogoSensorsContactText,Take your game to the next level. With JOGO’s sensors you can boost your performance by tracking and understanding better every single move you make.,"Con Jogo, nuestros sensores llevan tu juego al siguiente nivel. Toque el botón de abajo y nos comunicaremos con usted con los detalles.",,Breng je spel met JOGO’s sensors naar een hoger niveau . Krijg (meer) inzicht in je prestaties en verbeterpunten.,"Leve seu jogo para o próximo nível. Com os sensores do JOGO, você pode aumentar seu desempenho rastreando e entendendo melhor cada movimento que você faz."
+iWantSensors,Request your sensors now,"Quiero sensores, contáctame",,Vraag nu je sensors aan,Solicite seus sensores agora
+pendingApproval,Pending approval,Pendiente de aprobación,,In afwachting van goedkeuring,Aprovação pendente
+approvedTapToSeePlayers,Approved - Tap to see players,Aprobado - toca para ver a los jugadores,,Goedgekeurd - tik hier om spelers te zien,Aprovado - Toque para ver os jogadores
+selectionIsShared,Your selection has been shared with the club. We will notify you shortly about the status of your request.,Tu selección se comparte con el club. ¡Le notificaremos su solicitud pronto!,,Je selectie is gedeeld met de club. We houden je op de hoogte van de status hiervan.,Sua seleção foi compartilhada com o clube. Iremos notificá-lo em breve sobre o status de sua solicitação.
+backSettings,Back to settings,Volver a la configuración,,Terug naar instellingen,Voltar para as configurações
+checkExercises,Check exercises,comprobar ejercicios,,Bekijk oefeningen,Verifique os exercícios
+iHaveSensors,Add sensors to your profile,"tengo sensores, añadir sensores al perfil",,Voeg sensors toe aan je profiel,Adicione sensores ao seu perfil
+requestSent,Your request has been sent successfully,solicitud enviada correctamente,,Je verzoek is succesvol verzonden,Seu pedido foi enviado com sucesso
+onlyTrainer,TRAINER,Entrenador,,TRAINER,TREINADOR
+deleteCommentPrompt,Are you sure you want to delete this comment?,Estas seguro que quieres eliminar este comentario?,,Weet je zeker dat je deze opmerking wilt verwijderen?,Tem certeza que deseja deletar este comentário?
+deletePostPrompt,Are you sure you want to delete this post?,Estas seguro que quieres eliminar esta publicación?,,Weet je zeker dat je dit bericht wilt verwijderen?,Tem certeza que deseja deletar esta postagem?
+deleteTeamPrompt,Are you sure you want to remove this team?,Estas seguro que quieres eliminar este equipo?,,Weet je zeker dat je dit team wilt verwijderen?,Tem certeza que deseja remover esta equipe?
+Filter notifications,Filter notifications,Filtrar notificaciones ,,,Filtrar notificações
+Notification types,Notification types,Tipos de notificaciones,,,Tipos de notificação
+Friend requests ,Friend requests ,Solicitud de amistad,,Vriendschapsverzoeken,Pedidos de amizade
+Following,Following,Siguiendo,,Volgend,Seguindo
+Comments,Comments,Comentarios,,Opmerkingen,Comentários
+Likes,Likes,Me gustas,,Likes,Gostos
+Assignments,Assignments,Tareas,,Opdrachten,Tarefas
+Add teams,Add teams,Añadir equipos,,Voeg teams toe,Adicionar equipes
+"Anyone on JOGO can see your profile, training videos and progress. Follow requests are accepted automatically.","Anyone on JOGO can see your profile, training videos and progress. Follow requests are accepted automatically.","Cualquier persona en JOGO puede ver tu perfil, entrenos, videos y progreso. Las solicitudes serán aceptadas automáticamente.",  ,"Iedereen op JOGO kan je profiel, trainingsvideo's en vooruitgang zien. Volgverzoeken worden automatisch geaccepteerd.","Qualquer pessoa no JOGO pode ver seu perfil, vídeos de treinamento e progresso. Os pedidos de acompanhamento são aceitos automaticamente."
+"Only you can see your profile, training videos and progress. Follow requests need to be approved by you.","Only you can see your profile, training videos and progress. Follow requests need to be approved by you.","Solo tu puedes ver tu perfil, videos de entreno y progreso. Las siguientes solicitudes deben ser aprobadas por ti",,"Alleen jij kan je profiel, trainingsvideo's en vooruitgang zien. Volgverzoeken moeten door jou worden goedgekeurd.","Só você pode ver seu perfil, vídeos de treinamento e progresso. As solicitações para seguir precisam ser aprovadas por você."
+"Followers can see your profile, training videos and progress. Follow requests need to be approved by you","Followers can see your profile, training videos and progress. Follow requests need to be approved by you","Los seguidores pueden ver tu perfil, videos y progreso. Las siguientes solicitudes deben ser aprobadas por ti",,"Volgers kunnen je profiel, trainingsvideo's en vooruitgang zien. Volgverzoeken moeten door jou worden goedgekeurd.","Os seguidores podem ver seu perfil, vídeos de treinamento e progresso. As solicitações para seguir precisam ser aprovadas por você"
+Friends,Friends,Amigos,,Vrienden,Amigos
+"1. You will need a ball to calibrate your sensors, tap on Start Calibration when you are ready!",You will need a ball to calibrate your sensors. Tap on the ‘Start Calibration’ button when ready to do so!,"1. Necesitará un balón para calibrar sus sensores, toque Iniciar calibración cuando esté listo.",Je hebt een bal nodig om je sensors te kalibreren. Tik op de knop ‘Start Kalibratie’ om het kalibratieproces te starten!,,Você precisará de uma bola para calibrar seus sensores. Toque no botão 'Iniciar calibração' quando estiver pronto para fazer isso!
+2. Turn you Shinguards on and put them on to start the calibration. Follow the instructions and the system will guide you through the process.,Turn your shin guards on to start the calibration. Follow the instructions that will guide you through the process. ,2. Encienda las espinilleras y colóqueselas para iniciar la calibración. Siga las instrucciones y el sistema lo guiará a través del proceso.,Zet je scheenbeschermers aan om de kalibratie te starten. Volg daarbij de instructies die op het scherm verschijnen.,,Ligue as caneleiras para iniciar a calibração. Siga as instruções que o orientarão durante o processo.
+3a. Tap the screen and kick the ball with SLOW force using your RIGHT foot,Tap on the screen and kick the ball SLOWLY using your RIGHT foot,3a. Toca la pantalla y patea el balón con fuerza LENTA usando tu pie DERECHO,Tik op het scherm en trap de bal ZACHT met RECHTS,,Toque na tela e chute a bola LENTAMENTE usando o pé DIREITO
+"3b. Right Foot, Softly","Right Foot, Softly","3b. Pie derecho, suavemente","Rechtervoet, zachtjes",,"Pé direito, suavemente"
+3m. Kick the ball with SLOW force using your RIGHT foot,Kick the ball SLOWLY using your RIGHT foot,3m. Patea el balón con fuerza MÍNIMA usando tu pie DERECHO,Trap de bal ZACHT met RECHTS,,Chute a bola LENTAMENTE usando o pé DIREITO
+"4a. Great Kick, Now tap the screen and kick the ball with MEDIUM force using your RIGHT foot",Great kick! Now tap on the screen and kick the ball with MEDIUM force using your RIGHT foot,"4a. Gran golpeo, ahora toca la pantalla y patea la pelota con fuerza MEDIA usando tu pie DERECHO",Geweldige trap! Tik nu op het scherm en trap de bal met MEDIUM kracht met RECHTS,,Ótimo chute! Agora toque na tela e chute a bola com força MÉDIA usando o pé DIREITO
+"4b. Right Foot, Medium Speed","Right Foot, Medium Speed","4b. Pie derecho, velocidad media","Rechtervoet, medium snelheid",,"Pé direito, velocidade média"
+4m. Kick the ball with MEDIUM force using your RIGHT foot,Kick the ball with MEDIUM force using your RIGHT foot,4m. Patea el balón con fuerza MEDIA usando tu pie DERECHO,Trap de bal met MEDIUM kracht met RECHTS,,Chute a bola com força MÉDIA usando o pé DIREITO
+"5a. Great Kick, Now tap the screen and kick the ball with HARD force using your RIGHT foot",Great kick! Now tap on the screen and kick the ball HARD using your RIGHT foot,"5a. Gran golpeo, ahora toca la pantalla y patea la pelota con fuerza MÁXIMA usando tu pie DERECHO",Geweldige trap! Tik nu op het scherm en trap de bal HARD met RECHTS,,Ótimo chute! Agora toque na tela e chute a bola com força usando o pé DIREITO
+"5b. Right Foot, Hard!","Right Foot, Hard!","5b. ¡Pie derecho, fuerte!","Rechtervoet, hard!",,"Pé direito, Forte!"
+5m. Kick the ball with HARD force using your RIGHT foot,Kick the ball HARD using your RIGHT foot,5m. Patea el balón con fuerza MÁXIMA usando tu pie DERECHO,Trap de bal HARD met RECHTS,,Chute a bola com força usando o pé DIREITO
+"6a. Now, Tap the screen and kick the ball with SLOW force using your LEFT foot","Now, Tap on the screen and kick the ball SLOWLY using your LEFT foot","6a. Ahora, toca la pantalla y patea la pelota con fuerza MÍNIMA usando tu pie IZQUIERDO",Klik nu op het scherm en trap de bal ZACHT met LINKS,,"Agora, toque na tela e chute a bola LENTAMENTE usando o pé ESQUERDO"
+"6b. Left Foot, Softly","Left Foot, Softly","6b. Pie izquierdo, suavemente","Linkervoet, zachtjes",,"Pé esquerdo, suavemente"
+6m. Kick the ball with SLOW force using your LEFT foot,Kick the ball SLOWLY using your LEFT foot,6m. Patea el balón con fuerza MÍNIMA usando tu pie IZQUIERDO,Trap de bal ZACHT met LINKS,,Chute a bola LENTAMENTE usando o pé ESQUERDO
+"7a. Great Kick, Now tap the screen and kick the ball with MEDIUM force using your LEFT foot",Great kick! Now tap on the screen and kick the ball with MEDIUM force using your LEFT foot,"7a. Gran golpeo, ahora toca la pantalla y patea la pelota con fuerza MEDIA usando tu pie IZQUIERDO",Geweldige trap! Tik nu op het scherm en trap de bal met MEDIUM kracht met LINKS,,Ótimo chute! Agora toque na tela e chute a bola com força MÉDIA usando o pé ESQUERDO
+"7b. Left Foot, Medium Speed","Left Foot, Medium Speed","7b. Pie izquierdo, velocidad media","Linkervoet, medium snelheid",,"Pé esquerdo, velocidade média"
+7m. Kick the ball with MEDIUM force using your LEFT foot,Kick the ball with MEDIUM force using your LEFT foot,7m. Patea el balón con fuerza MEDIA usando tu pie IZQUIERDO,Trap de bal met MEDIUM kracht met LINKS,,Chute a bola com força MÉDIA usando o pé ESQUERDO
+"8a. Great Kick, Now tap the screen and kick the ball with HARD force using your LEFT foot",Great kick! Now tap on the screen and kick the ball HARD using your LEFT foot,"8a. Gran golpeo, ahora toca la pantalla y patea la pelota con fuerza MÁXIMA con el pie IZQUIERDO",Geweldige trap! Tik nu op het scherm en trap de bal HARD met LINKS,,Ótimo chute! Agora toque na tela e chute a bola com força usando o pé ESQUERDO
+"8b. Left Foot, Hard!","Left Foot, Hard!","8b. ¡Pie izquierdo, fuerte!","Linkervoet, hard!",,"Pé Esquerdo, Forte!"
+8m. Kick the ball with HARD force using your LEFT foot,Kick the ball HARD using your LEFT foot,8m. Patea la pelota con fuerza MÁXIMA usando tu pie IZQUIERDO,Trap de bal HARD met LINKS,,Chute a bola com força usando o pé ESQUERDO

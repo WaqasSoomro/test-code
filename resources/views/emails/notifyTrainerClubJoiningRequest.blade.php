@@ -1,0 +1,1 @@
+Your request for joinig {{ $club->title }} club has {{ $isRequestAccepted == 'yes' ? 'approved' : 'declined' }}

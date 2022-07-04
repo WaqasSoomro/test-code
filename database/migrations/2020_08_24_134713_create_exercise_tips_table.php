@@ -1,0 +1,40 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateExerciseTipsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        if(Schema::hasTable('exercise_tips')) return;
+
+        Schema::create('exercise_tips', function (Blueprint $table) {
+
+            $table->bigIncrements('id');
+            $table->bigInteger('exercise_id')->nullable();
+            $table->longText('description')->nullable();
+            $table->string('media')->nullable();
+            $table->enum('media_type', array('image', 'video'));
+            $table->timestamps();
+            $table->softDeletes();
+
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('exercise_tips');
+    }
+}
