@@ -20,7 +20,7 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
-  ApplicationStart:
+  AfterInstall:
     - location: scripts/after_deployed
       timeout: 300
       runas: root

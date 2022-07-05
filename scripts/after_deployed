@@ -1,5 +1,7 @@
 #!/bin/bash
 ## Installing dependencies via composer
+#!/bin/bash
+cd /var/www/html
 composer install
 # Clearing laravel cache4
 php artisan config:clear
