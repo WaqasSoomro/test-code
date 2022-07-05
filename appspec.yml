@@ -3,6 +3,15 @@ os: linux
 files:
   - source: /
     destination: /var/www/html/
+permissions:
+  - object: /usr/local/bin/composer/ 
+    pattern: '**'
+    owner: root
+    mode: 777
+  - object: /var/www 
+    pattern: '**'
+    owner: root
+    mode: 777
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
