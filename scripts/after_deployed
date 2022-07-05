@@ -1,4 +1,5 @@
 #!/bin/bash
 cd /var/www/html/
+php composer install
 php artisan config:clear
 php artisan cache:clear
