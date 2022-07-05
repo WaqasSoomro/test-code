@@ -1,6 +1,6 @@
 #!/bin/bash
-## Installing composer
-php /usr/local/bin/composer/composer.phar install
+## Installing dependencies via composer
+php composer install
 # Clearing laravel cache4
 php artisan config:clear
 php artisan cache:clear
