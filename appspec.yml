@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.php
+  - source: /
     destination: /var/www/html/
 hooks:
   BeforeInstall:
@@ -9,6 +9,10 @@ hooks:
       timeout: 300
       runas: root
     - location: scripts/start_server
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: scripts/after_deployed
       timeout: 300
       runas: root
   ApplicationStop:
